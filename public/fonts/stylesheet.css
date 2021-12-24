@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "FarnhamDisplay-RegItalSwashAlt";
+  src: url("FarnhamDisplay-RegItalSwashAlt.woff2") format("woff2"),
+    url("FarnhamDisplay-RegItalSwashAlt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "romina";
+  src: url("rominamedium.woff2") format("woff2"),
+    url("rominamedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
