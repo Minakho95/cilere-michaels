@@ -17,12 +17,20 @@ function Header() {
           <button className="bg-red-500 px-1">JOIN NOW</button>
           <div className="border-l pl-3 py-1">EN</div>
           <div className="border-l pl-3 py-1 ">
-            <Image
-              src="https://priviledger.fr/img/searchIcon.svg"
-              width={13}
-              height={13}
-              objectFit="contain"
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
           </div>
         </div>
       </div>

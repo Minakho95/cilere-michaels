@@ -13,7 +13,7 @@ function NavTest() {
         <Link href="/">
           <a className="inline-flex items-center w-1/2 sm:w-1/3 justify-items-center">
             <Image
-              src="https://priviledger.fr/img/logo.svg"
+              src="/../public/logo.png"
               width={333}
               height={74}
               objectFit="contain"
