@@ -9,9 +9,9 @@ function NavTest() {
   };
   return (
     <>
-      <nav className="flex items-center flex-wrap p-3 border-2 justify-center">
+      <nav className="flex items-center flex-wrap p-3 border justify-center">
         <Link href="/">
-          <a className="inline-flex items-center w-2/3 sm:w-1/3 ">
+          <a className="inline-flex items-center w-1/2 sm:w-1/3 justify-items-center">
             <Image
               src="https://priviledger.fr/img/logo.svg"
               width={333}
@@ -21,7 +21,7 @@ function NavTest() {
           </a>
         </Link>
         <button
-          className="absolute top-10 left-2 inline-flex p-3 rounded lg:hidden text-black ml-auto hover:text-black outline-none"
+          className="absolute left-2 inline-flex p-3 rounded lg:hidden text-black ml-auto hover:text-black outline-none"
           onClick={handleClick}
         >
           <svg
@@ -42,9 +42,9 @@ function NavTest() {
         <div
           className={`${
             active ? "" : "hidden"
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start lg:items-center flex flex-col lg:h-auto">
+          <div className=" absolute z-10 left-0 mt-3 bg-white border lg:border-none lg:relative lg:inline-flex lg:flex-row lg:mt-auto lg:ml-auto lg:bg-inherit lg:w-auto w-full items-start lg:items-center flex flex-col lg:h-auto">
             <Link href="/">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 items-center justify-center focus:text-blue-800 focus:underline">
                 HOME

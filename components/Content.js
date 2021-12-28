@@ -11,17 +11,19 @@ function Content() {
       <div className="my-6 mx-4 flex flex-wrap ">
         {/* text */}
         <div className="text-center w-full mb-4 lg:w-3/5 lg:h-40 lg:text-left lg:pt-20">
-          <p className="font-Farnham lg:text-3xl">Treasure around the globe</p>
-          <p className="pt-2 font-Romina lg:text-3xl mt-4">
+          <p className="font-Farnham text-lg lg:text-3xl">
+            Treasure around the globe
+          </p>
+          <p className="font-Romina lg:text-3xl mt-2 lg:mt-8">
             THE ULTIMATE CROSS-BORDER SHOPPING GUIDE
           </p>
-          <p className="pt-2 font-Farnham lg:text-2xl mt-4">
+          <p className="font-Farnham text-base text-[#080875] mt-2 lg:text-2xl lg:mt-8 ">
             dedicated to luxury and high-end lovers from all over the world
           </p>
         </div>
 
         {/* image */}
-        <div className="flex lg:-order-1 w-1/2 lg:w-1/3 lg:mr-8">
+        <div className="flex w-full justify-center lg:-order-1 lg:w-1/3 lg:w-1/3 lg:mr-8">
           <div className="sm:text-center sm:w-full lg:text-right">
             <Image
               src="/iPhone.png"
@@ -32,8 +34,8 @@ function Content() {
           </div>
         </div>
         {/* buttons */}
-        <div className="flex flex-col w-1/2 items-center justify-evenly lg:justify-start lg:flex-row lg:w-3/5 lg:h-40 lg:absolute lg:self-end lg:right-20 lg:bottom-40 lg:pl-8">
-          <button className="w-40 border border-blue-600 rounded-lg shadow-xl lg:mr-4">
+        <div className="flex flex-col sm:flex-row w-full lg:w-3/5 items-center justify-evenly lg:justify-start lg:flex-row lg:h-40 lg:absolute lg:self-end lg:right-20 lg:bottom-40 lg:pl-12">
+          <button className="w-40 border border-blue-600 mt-2 rounded-lg shadow-xl lg:mr-4">
             <div className="flex items-center">
               {/* img button */}
               <div className="basis-1/4 items-centrer  ">
@@ -50,7 +52,7 @@ function Content() {
               </div>
             </div>
           </button>
-          <button className="w-40 border border-blue-600 rounded-lg shadow-xl lg:mr-4">
+          <button className="w-40 border border-blue-600 mt-2 rounded-lg shadow-xl lg:mr-4">
             <div className="flex items-center">
               {/* img button */}
               <div className="basis-1/4 items-centrer ">
@@ -67,7 +69,7 @@ function Content() {
               </div>
             </div>
           </button>
-          <button className="w-40 border border-blue-600 rounded-lg shadow-xl">
+          <button className="w-40 border border-blue-600 mt-2 rounded-lg shadow-xl">
             <div className="flex items-center">
               {/* img button */}
               <div className="basis-1/4 items-center ">
